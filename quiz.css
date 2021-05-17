@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 0;
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+h2{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.quiz-container {
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+}
+
+#question {
+  padding: 0.3rem;
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+ul li {
+  padding: 0.5rem 0.5rem;
+  margin: 0 1rem;
+  
+
+}
+
+ul li label{
+  cursor: pointer;
+}
+
+button{
+  background-color: rgba(160, 53, 170, 0.897);
+  padding: 1rem;
+  display: block;
+  color: white;
+  width: 100%;
+  font-family: inherit;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+#btn:hover{
+  background-color: purple;
+}
+#btn:focus{
+  outline: none;
+  background-color: mediumorchid;
+}
